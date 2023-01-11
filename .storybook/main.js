@@ -19,5 +19,10 @@ export default {
   },
   "docs": {
     "autodocs": "tag"
-  }
+  },
+  viteFinal(config) {
+    console.log('viteFinal fired');
+
+    return config;
+  },
 }
